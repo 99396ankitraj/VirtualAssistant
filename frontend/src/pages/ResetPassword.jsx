@@ -29,7 +29,7 @@ function ResetPassword() {
 
     setLoading(true);
     try {
-      await axios.post("http://localhost:8000/api/user/reset-password", {
+      await axios.post("https://virtualassistant-backend-rmie.onrender.com/api/user/reset-password", {
         token: resetToken,
         newPassword,
       });
