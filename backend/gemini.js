@@ -28,7 +28,7 @@ const geminiResponse = async (command, assistantName, userName) => {
         // General pronunciation/spelling corrections for common words/platforms
         const corrections = {
             "netflicks": "netflix",
-            "net flix": "netflix",
+            "\net flix": "netflix",
             "hot star": "hotstar",
             "hot starr": "hotstar"
         }
